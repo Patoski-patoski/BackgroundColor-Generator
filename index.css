@@ -1,1 +1,40 @@
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+body{
+    height: 100vh; 
+    transition: all 2s;
+    overflow: hidden;
+
+}
+
+div#select{
+    position: relative;
+    height: 300px;
+    width: 1000px; 
+}
+
+
+button{
+background-color:transparent;
+position: absolute;
+font-size: 20px;
+left: 58%;
+top: 57%;
+padding: 1rem; 
+border: none;
+}
+
+button:hover, button:focus{
+    border: none;
+}
+
+span{
+    position: absolute; 
+    left: 55%;
+    top: 85%;
+}
+

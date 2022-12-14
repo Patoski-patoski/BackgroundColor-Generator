@@ -26,6 +26,7 @@ left: 58%;
 top: 57%;
 padding: 1rem; 
 border: none;
+cursor: pointer;
 }
 
 button:hover, button:focus{
